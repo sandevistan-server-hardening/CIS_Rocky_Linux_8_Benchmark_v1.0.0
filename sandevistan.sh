@@ -10,4 +10,4 @@ then
   exit 10;
 fi
 
-./iterateAndExecute.sh tests > cis_audit_$(/bin/date +%Y-%m-%d-%H:%M:%S).log 2>&1 
+./run-audit.sh tests > logs/cis_audit_$(/bin/date +%Y-%m-%d-%H:%M:%S).log 2>&1 
